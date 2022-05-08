@@ -1,0 +1,49 @@
+ body{
+     background-image: url(images/shutterstock_749021593-1.jpg);
+     display:flex;
+     align-items:center ;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-attachment: fixed; 
+     padding-left: 10%;
+     padding-top: 8%;
+    }
+
+.form{
+    margin-left: 3%;
+    margin-top: 2%;
+  
+}
+
+h2{ 
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.label{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.conta{
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom:8px ;
+    width: 100%;
+}
+.login-button{
+    margin-left: 25%;
+    padding: 3%;
+    font-size:17px;
+    padding-left: 8%;
+    font-weight: bold;
+    padding-right: 8%;
+  
+    color: rgb(2, 13, 41);
+    background-color: rgb(126, 144, 193);
+
+}
+.login-button:hover{
+    color: rgb(8, 1, 72);
+    background-color: rgb(200, 215, 250);
+}
