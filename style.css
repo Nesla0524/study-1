@@ -1,49 +1,64 @@
- body{
-     background-image: url(images/shutterstock_749021593-1.jpg);
-     display:flex;
-     align-items:center ;
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
-     background-attachment: fixed; 
-     padding-left: 10%;
-     padding-top: 8%;
-    }
+body{
+    background-image: url(images/shutterstock_749021593-1.jpg);
+    display:flex;
+    align-items:center ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+    padding-left: 10%;
+    padding-top: 8%;
+   }
 
-.form{
-    margin-left: 3%;
-    margin-top: 2%;
-  
+.login{
+    /* border: 3px solid rgb(123, 134, 203); */
+    padding: 20px;
+   
 }
-
-h2{ 
+.login h2{
     color: aliceblue;
     font-size: 30px;
-}
+    margin-bottom: 18px;}
 
-.label{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
+.login label{
+    color: rgb(255, 251, 251);
+    font-size: 1.25em;
+    
 }
-
-.conta{
-    padding: 3px;
-    margin-top: 5px;
-    margin-bottom:8px ;
-    width: 100%;
+.login input{
+    height: 30px;
+    width: 130%;
 }
-.login-button{
-    margin-left: 25%;
+#submit{
+    margin-left: 35%;
     padding: 3%;
     font-size:17px;
     padding-left: 8%;
     font-weight: bold;
-    padding-right: 8%;
-  
+    padding-right: 10%;
+    margin-top: 10%;
     color: rgb(2, 13, 41);
     background-color: rgb(126, 144, 193);
-
+    
 }
-.login-button:hover{
-    color: rgb(8, 1, 72);
-    background-color: rgb(200, 215, 250);
+/* #mainwlcm1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+    color: yellow;
+    text-align: center;
+    text-shadow: black;
 }
+#mainwlcm2{
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    text-shadow: orange;
+}
+#mainimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21.75%;
+    height: 30%; */

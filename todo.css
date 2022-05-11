@@ -1,0 +1,65 @@
+/* .disabled{
+    
+    pointer-events:none; 
+    opacity:0.4;        
+
+} */
+body{
+    background-image: url(images/R\ \(2\).jpg);
+}
+
+#welcome{
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-weight: bolder;
+    color: rgb(228, 224, 237);
+    margin-left: 30%;
+    font-size: 30px;
+}
+.table{
+    width: 40%;
+    margin-left: 30%;
+   
+}
+#todoList{
+    background: linear-gradient(to left,rgb(0, 0, 0,0.7),rgb(55, 54, 55,0.9));
+    /* -webkit-background-clip: text;
+    color: transparent; */
+   
+    /* background-color: rgba(0, 0, 0, 0.832); */
+    color: rgb(255, 255, 255);
+}
+/* .nav-item{
+    margin-left:10px;
+    padding-left: 5%;
+} */
+
+.nav-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(214, 205, 238);
+    text-decoration: none;
+    border-style:groove ;
+    border-color: rgb(255, 255, 255,0.5);
+    font-size:larger;
+    float: left;
+     margin-left: 10px;
+     
+}
+.nav-link:hover{
+    color:rgb(116, 92, 175);
+}
+.navbar-collapse{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    /* background: linear-gradient(to left,rgb(1, 16, 28), rgb(17, 36, 55),rgb(56, 80, 136)); */
+    background-color: rgba(0, 0, 0, 0.907);
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 38%;
+    /* margin-right: 5%; */
+}
+
+th{
+    color: rgb(175, 154, 154);
+    font-size: 20px;
+}

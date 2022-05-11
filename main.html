@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="navbar-expand">
+      
+     <div class="navbar-collapse">
+      
+         <a class="nav_link" href="todolist.html">ToDo LIST</a>
+         <a class="nav_link" href="index.html" onclick="window.localStorage.setItem('user', undefined)">LOG OUT</a>
+     
+        
+    </nav>
+    <div class="cap">
+   <!-- <div class="caption"> -->
+    <img src="images/original_monochrome-hand-lettered-to-do-list-notepad.jpg">
+    
+    <!-- </div> -->
+    <div class="caption">
+    <a> WELCOME TO <br><br> ToDo List WEB APPLICATION !!!</a> 
+     </div> 
+  </div> 
+  <script>
+    try {
+      let currentUser=JSON.parse(window.localStorage.getItem('user'));
+    } catch {
+      window.location = 'index.html'
+  }
+  </script>
+</body>
+</html>
